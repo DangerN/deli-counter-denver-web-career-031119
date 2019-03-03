@@ -10,12 +10,12 @@ def line(arr)
 end
 
 def take_a_number(line,pers)
-  line.push(person)
+  line.push(pers)
 end
 
 def now_serving(arr)
   if !arr.empty?
-    shift(arr)
+    arr.shift
   else
     puts "There is nobody waiting to be served!"
 end
