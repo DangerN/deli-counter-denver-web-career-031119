@@ -11,6 +11,7 @@ end
 
 def take_a_number(line,pers)
   line.push(pers)
+  puts "Welcome, #{line.last}. You are number #{line.size} in line."
 end
 
 def now_serving(arr)
