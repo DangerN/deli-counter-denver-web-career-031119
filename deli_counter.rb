@@ -12,5 +12,5 @@ end
 def take_a_number
 end
 
-def now serving(arr)
+def now_serving(arr)
 end
