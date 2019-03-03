@@ -14,4 +14,8 @@ def take_a_number(line,pers)
 end
 
 def now_serving(arr)
+  if !arr.empty?
+    shift(arr)
+  else
+    puts
 end
