@@ -17,5 +17,5 @@ def now_serving(arr)
   if !arr.empty?
     shift(arr)
   else
-    puts
+    puts "There is nobody waiting to be served!"
 end
